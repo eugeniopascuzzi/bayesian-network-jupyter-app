@@ -1,6 +1,0 @@
-__pycache__/
-.ipynb_checkpoints/
-*.bif
-*.xlsx
-.DS_Store
-.env
