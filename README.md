@@ -41,7 +41,7 @@ Le due modalità disponibili sono:
 
 ## 🧰 Librerie necessarie
 
-Assicurati di avere installato le seguenti librerie Python:
+Assicurarsi di avere installato le seguenti librerie Python:
 
 ```bash
 pip install pyAgrum ipywidgets matplotlib seaborn pandas
@@ -51,13 +51,13 @@ pip install pyAgrum ipywidgets matplotlib seaborn pandas
 
 ## 📊 Esempio di dataset
 
-Il file `modalità_automatica.py` utilizza un dataset in formato `.xlsx`, come ad esempio `heart.xlsx`, contenente dati sanitari su pazienti. Assicurati che il file sia presente nella stessa directory.
+Il file `modalità_automatica.py` utilizza un dataset in formato `.xlsx`, come ad esempio `heart.xlsx`, contenente dati sanitari su pazienti. Assicurati che il file sia presente nella stessa directory, modifica la riga 11 dataset = pd.read_excel("heart.xlsx") e sostituire  `heart.xlsx` con il dataset che si vuole usare.
 
 ---
 
 ## 📌 Avvio
 
-Avvia i notebook da **Jupyter** 
+Avvia **Jupyter Notebook** 
 
 ---
 
