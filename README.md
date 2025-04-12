@@ -51,7 +51,7 @@ pip install pyAgrum ipywidgets matplotlib seaborn pandas
 
 ## 📊 Esempio di dataset
 
-Il file `modalità_automatica.py` utilizza un dataset in formato `.xlsx`, come ad esempio `heart.xlsx`, contenente dati sanitari su pazienti. Assicurati che il file sia presente nella stessa directory, modifica la riga 11 dataset = pd.read_excel("heart.xlsx") e sostituire  `heart.xlsx` con il dataset che si vuole usare.
+Il file `modalità_automatica.py` utilizza un dataset in formato `.xlsx`, come ad esempio `heart.xlsx`, contenente dati sanitari su pazienti. Assicurarsi che il file sia presente nella stessa directory, modificare la riga 11 dataset = pd.read_excel("heart.xlsx") e sostituire  `heart.xlsx` con il dataset che si vuole usare. Il dataset in formato excel deve essere già discretizzato, attualmente l'applicazione non consente di discretizzare le variabili in automatico.
 
 ---
 
